@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #000438;
+    min-height: 10vh;
+    color: rgb(236, 236, 236);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    letter-spacing: 1px;
+}
+
+.burger{
+    display: none;
+}
+.burger div {
+    width: 25px;
+    height: 2px;
+    margin: 5px;
+    background-color: rgb(236, 236, 236);
+}
