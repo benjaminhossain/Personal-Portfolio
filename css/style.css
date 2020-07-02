@@ -9,7 +9,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 25px 0 60px;
-    background-color: #000438;
+    background-color: #131638;
     min-height: 10vh;
 }
 
@@ -27,7 +27,7 @@ nav {
     text-decoration: none;
     color: #83b4c9;
     letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .nav-links :hover {
@@ -67,7 +67,7 @@ nav {
         right: 0px;
         height: 90vh;
         top: 10vh;
-        background-color: #000438;
+        background-color: #131638;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -93,4 +93,19 @@ nav {
 }
 .cross .line3 {
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+
+#home {
+    width: 100%;
+    height: 90vh;
+    background-color: #015f96;
+    background-image: linear-gradient(155deg, #015f96 25%, #80D0C7 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Raleway', sans-serif;
 }
