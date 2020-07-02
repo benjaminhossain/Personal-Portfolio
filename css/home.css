@@ -1,0 +1,34 @@
+#home {
+    width: 100%;
+    height: 90vh;
+    background-color: #015f96;
+    background-image: linear-gradient(155deg, #004E79 25%, #80D0C7 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Raleway', sans-serif;
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    z-index: -1;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #home {
+        font-size: 3.5vw;
+    }
+}
