@@ -7,3 +7,39 @@
     box-sizing: border-box;
 }
 
+
+.profile-pic{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-right:20px;
+    background-image:url("https://i.ibb.co/wRdcHt0/IMG-20190908-WA0000.jpg");
+    background-size: 100% 120%;
+}
+
+#about {
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% auto;
+    grid-template-areas: 
+    "str str"
+    "pic txt";
+}
+
+.profile-pic{
+    grid-area: pic;
+}
+
+.about-text{
+    grid-area: txt;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+.about-str{
+    grid-area: str;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
