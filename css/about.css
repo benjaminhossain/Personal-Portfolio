@@ -1,0 +1,44 @@
+#about {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% auto;
+    grid-template-areas: 
+    "str str"
+    "pic txt";
+}
+
+.avatar{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:40px;
+    background-image:url("https://i.ibb.co/wRdcHt0/IMG-20190908-WA0000.jpg");
+    background-size: 100% 120%;
+    grid-area: pic;
+}
+
+.about-text{
+    grid-area: txt;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+.about-text p {
+    margin: 7px;
+}
+
+.about-str{
+    grid-area: str;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 1050px){
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
