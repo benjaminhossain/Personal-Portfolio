@@ -5,6 +5,8 @@ nav {
     padding: 0 25px 0 60px;
     background-color: #131638;
     min-height: 10vh;
+    position: sticky;
+    top: 0;
 }
 
 .nav-links{
