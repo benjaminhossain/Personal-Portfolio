@@ -1,6 +1,7 @@
 @import "nav.css";
 @import "home.css";
 @import "about.css";
+@import "skills.css";
 
 * {
     margin: 0;
