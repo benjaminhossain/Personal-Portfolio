@@ -1,0 +1,13 @@
+#footer {
+    height: 70px;
+    background-color: grey;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .icons i {
+    padding: 0 10px;
+    font-size: 2.5em;
+}
