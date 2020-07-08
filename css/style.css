@@ -13,15 +13,20 @@
     width: 80vw;
     height: auto;
     margin: 30px;
+    padding: 40px 20px;
     box-shadow: 3px 3px 10px grey;
     display: grid;
     grid-template-columns: 1fr 20px auto;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto) 40px auto;
     grid-template-areas: 
     "pic . title"
     "pic . des"
+    "pic . h4"
     "pic . tech"
     "pic . link";
+}
+#projects h2 {
+    text-align: center;
 }
 
 .project-items {
@@ -43,7 +48,8 @@
     text-align: center;
 }
 .project-description {
-    grid-area: des
+    grid-area: des;
+    align-self: center;
 }
 .project-links {
     grid-area: link;
@@ -53,10 +59,28 @@
     grid-area: tech;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+#projects h4{
+    grid-area: h4;
+    align-self: end;
 }
 .tech-items{
     background-color: pink;
-    margin:20px;
-    padding: 10px;
+    margin:10px;
+    padding: 5px 10px;
     border-radius: 25px;
+}
+
+@media screen and (max-width: 1150px){
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+    #projects h4 {
+        margin-top: 20px;
+    }
+    .project-links{
+        margin-top: 30px;
+    }
 }
