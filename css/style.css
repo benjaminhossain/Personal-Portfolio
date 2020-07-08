@@ -8,3 +8,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.box {
+    width: 80vw;
+    height: 200px;
+    border: solid 1px black;
+    margin: 30px;
+}
+
+.project-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
