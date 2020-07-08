@@ -11,13 +11,52 @@
 
 .box {
     width: 80vw;
-    height: 200px;
-    border: solid 1px black;
+    height: auto;
     margin: 30px;
+    box-shadow: 3px 3px 10px grey;
+    display: grid;
+    grid-template-columns: 1fr 20px auto;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "pic . title"
+    "pic . des"
+    "pic . tech"
+    "pic . link";
 }
 
 .project-items {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.project-items img {
+    width: 350px;
+    height: 200px;
+    margin: 30px 20px;
+    grid-area: pic;
+    align-self: center;
+}
+
+.project-title {
+    grid-area: title;
+    text-align: center;
+}
+.project-description {
+    grid-area: des
+}
+.project-links {
+    grid-area: link;
+    align-self: end;
+}
+.technology {
+    grid-area: tech;
+    display: flex;
+    flex-direction: row;
+}
+.tech-items{
+    background-color: pink;
+    margin:20px;
+    padding: 10px;
+    border-radius: 25px;
 }
