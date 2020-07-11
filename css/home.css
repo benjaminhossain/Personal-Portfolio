@@ -12,7 +12,6 @@
     background-size: 400% 400%;
     position: relative;
     animation: change 10s ease-in-out infinite;
-    z-index: -1;
 }
 
 @keyframes change {
