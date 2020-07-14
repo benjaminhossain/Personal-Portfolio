@@ -1,8 +1,8 @@
 #about {
-    margin: 50px;
+    margin: 100px;
     display: grid;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 10% auto;
+    grid-template-rows: 60px auto;
     grid-template-areas: 
     "str str"
     "pic txt";
@@ -22,6 +22,7 @@
     grid-area: txt;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
+    color: #9aa1a6;
 }
 
 .about-text p {
@@ -33,6 +34,8 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
+    color: #83b4c9;
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width: 1050px){
@@ -40,5 +43,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 40px;
     }
 }

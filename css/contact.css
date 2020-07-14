@@ -6,11 +6,15 @@
 }
 
 .email{
-    border: 2px solid blue;
+    border: 2px solid #e6874c;
     padding: 20px;
     margin-top: 30px;
+    color: #9aa1a6;
 }
 
 .email:hover{
-    background-color: cadetblue;
+    background-color: #83b4c9;
+    color:black;
+    cursor: pointer;
+    border: 2px solid #83b4c9;
 }
