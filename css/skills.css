@@ -1,5 +1,5 @@
 #skills {
-    margin-top: 100px;
+    padding-top: 50px;
 }
 #skills h2 {
     text-align: center;
@@ -11,6 +11,7 @@
 }
 .management-skills {
     margin:40px;
+    padding: 30px 0;
 }
 .management-skills img {
     height: 150px;
@@ -24,7 +25,8 @@
     flex-wrap: wrap;
 }
 .developer-skills{
-    margin:70px 40px;
+    margin: 70px 40px;
+    padding: 30px 0;
 }
 .developer-skills i {
     font-size: 5em;
@@ -48,4 +50,13 @@ i:hover {
     font-family: 'Raleway', sans-serif;
     padding-top: 5px;
     color: #9aa1a6;
+}
+
+@media screen and (max-width: 546px){
+    .developer-skills i {
+        padding: 20px 0;
+    }
+    .developer-skills{
+        margin: 70px 0px;
+    }
 }
