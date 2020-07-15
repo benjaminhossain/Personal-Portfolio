@@ -50,7 +50,7 @@ nav {
 }
 
 @media screen and (max-width: 950px){
-    body {
+    .wrapper {
         overflow-x: hidden;
     }
     .nav-links{
