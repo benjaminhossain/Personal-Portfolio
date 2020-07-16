@@ -5,8 +5,9 @@ nav {
     padding: 0 25px 0 60px;
     background-color: #131638;
     min-height: 10vh;
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
     z-index: 2;
 }
 
@@ -52,7 +53,6 @@ nav {
 @media screen and (max-width: 950px){
     .wrapper {
         overflow-x: hidden;
-        position: relative;
     }
     .nav-links{
         position: absolute;
