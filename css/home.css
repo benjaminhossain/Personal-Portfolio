@@ -13,6 +13,10 @@
     animation: change 10s ease-in-out infinite;
 }
 
+.home-text {
+    padding-top: 70px;
+}
+
 @keyframes change {
     0% {
         background-position: 0 50%;
