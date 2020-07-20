@@ -10,7 +10,7 @@
     padding: 40px 20px;
     background-color: #1b1d30;
     display: grid;
-    grid-template-columns: 1fr 20px auto;
+    grid-template-columns: 30% 20px auto;
     grid-template-rows: repeat(3, auto) 40px auto;
     grid-template-areas: 
     "pic . title"
@@ -30,9 +30,8 @@
 }
 
 .project-items img {
-    width: 350px;
-    height: 200px;
-    margin: 30px 20px;
+    width: 100%;
+    height: auto;
     grid-area: pic;
     align-self: center;
 }
@@ -67,6 +66,20 @@
     border-radius: 25px;
 }
 
+.project-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.project-links:hover a {
+    text-decoration: underline;
+    color: white;
+}
+
+.project-title {
+    color: blue;
+}
+
 @media screen and (max-width: 1150px){
     .box {
         display: flex;
@@ -77,5 +90,10 @@
     }
     .project-links{
         margin-top: 30px;
+    }
+    .project-items img {
+        width: 60%;
+        height: auto;
+        margin: 25px 0;
     }
 }
