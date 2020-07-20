@@ -98,7 +98,15 @@
         margin-top: 30px;
     }
     .project-items img {
-        width: 60%;
+        width: 70%;
+        height: auto;
+        margin: 25px 0;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .project-items img {
+        width: 95%;
         height: auto;
         margin: 25px 0;
     }
