@@ -39,14 +39,21 @@
 .project-title {
     grid-area: title;
     text-align: center;
+    font-size: 1.1em;
+    color: #83b4c9;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
 }
 .project-description {
     grid-area: des;
     align-self: center;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
 }
 .project-links {
     grid-area: link;
     align-self: end;
+    margin-top: 50px;
 }
 .technology {
     grid-area: tech;
@@ -57,6 +64,8 @@
 #projects h4{
     grid-area: h4;
     align-self: end;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 .tech-items{
     background-color: #e6874c;
@@ -64,21 +73,18 @@
     margin:10px;
     padding: 5px 10px;
     border-radius: 25px;
+    letter-spacing: 2px;
 }
 
 .project-links a {
     text-decoration: none;
-    color: white;
+    color: #2ba2e7;
 }
 
 .project-links:hover a {
     text-decoration: underline;
-    color: white;
 }
 
-.project-title {
-    color: blue;
-}
 
 @media screen and (max-width: 1150px){
     .box {

@@ -4,6 +4,7 @@ nav {
     align-items: center;
     padding: 0 25px 0 60px;
     background-color: #131638;
+    box-shadow: 0 0.3em 0.5em -0.1em rgba(0,0,0,.2);
     min-height: 10vh;
     position: fixed;
     top: 0;

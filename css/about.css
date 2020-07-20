@@ -21,8 +21,8 @@
 
 .about-text{
     grid-area: txt;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    letter-spacing: 1px;
     color: #9aa1a6;
 }
 
@@ -33,10 +33,12 @@
 .about-str{
     grid-area: str;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
-    color: #83b4c9;
     margin-bottom: 100px;
+}
+
+.headline {
+    color: #83b4c9;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1050px){
